@@ -1,0 +1,158 @@
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA2
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Tematika
+Kvízek
+EA2
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető feb 26, 08:30 - feb 26, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	8 perc	5.5 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 5.5 az összesen elérhető 10 pontból
+Beadva ekkor: feb 26, 08:39
+Ez a próbálkozás ennyi időt vett igénybe: 8 perc
+ 
+1. kérdés
+0 / 1 pont
+Az ISO/OSI modell mely rétege felel az útvonal választásért?
+
+Helyes válasz
+  Hálózati réteg/Network 
+Ön megadott egy választ
+  Szállítói réteg/Transport 
+  Adatkapcsolati réteg/Data Link 
+  Megjelenítési réteg/Presentation 
+  Alkalmazási réteg/Application 
+  Munkamenet (Ülés) réteg/Session 
+  Fizikai réteg/Physical 
+ 
+2. kérdés
+1 / 1 pont
+Az ISO/OSI modell mely rétege definiálja az átvitelre szánt adatok keretekre tördelését?
+
+  Szállítói réteg/Transport 
+  Megjelenítési réteg/Presentation 
+  Munkamenet (Ülés) réteg/Session 
+  Fizikai réteg/Physical 
+  Alkalmazási réteg/Application 
+  Hálózati réteg/Network 
+Helyes!
+  Adatkapcsolati réteg/Data Link 
+ 
+3. kérdés
+0.5 / 1 pont
+Az ISO/OSI mely rétegeit nem használjuk az Internet architektúrájának leírásához? (Segítség:  avagy mely rétegek nem képeik részét a bevezetett hibrid modellnek?)
+
+  Szállítói réteg/Transport 
+  Alkalmazási réteg/Application 
+Helyes!
+  Munkamenet (Ülés) réteg/Session 
+Ön megadott egy választ
+  Adatkapcsolati réteg/Data Link 
+  Hálózati réteg/Network 
+Helyes!
+  Megjelenítési réteg/Presentation 
+  Fizikai réteg/Physical 
+ 
+4. kérdés
+1 / 1 pont
+Az ISO/OSI modell mely rétegéhez sorolhatók a következő fogalmak: BitTorrent, HTTP, BitCoin kliens?
+
+  Megjelenítési réteg/Presentation 
+  Munkamenet (Ülés) réteg/Session 
+Helyes!
+  Alkalmazási réteg/Application 
+  Adatkapcsolati réteg/Data Link 
+  Fizikai réteg/Physical 
+  Hálózati réteg/Network 
+  Szállítói réteg/Transport 
+ 
+5. kérdés
+0 / 1 pont
+Az ISO/OSI modell mely rétege definiálja az eszköz és átviteli médium kapcsolatát?
+
+  Szállítói réteg/Transport 
+  Alkalmazási réteg/Application 
+Ön megadott egy választ
+  Hálózati réteg/Network 
+  Megjelenítési réteg/Presentation 
+  Munkamenet (Ülés) réteg/Session 
+Helyes válasz
+  Fizikai réteg/Physical 
+  Adatkapcsolati réteg/Data Link 
+ 
+6. kérdés
+1 / 1 pont
+Egy optikai gerinchálózaton két routert 200 km üvegszál köt össze. Az üvegszálban a jelterjedési sebesség 2x108 m/s. Mekkor propagációs késést tapasztalunk a fenti optikai linken ezredmásodpercben kifejezve (ms)? (segítség: 1ms = 10-3 s)
+
+Helyes!
+1.0000
+Helyes válaszok
+1.0 (megközelítőleg : 0.0)
+ 
+7. kérdés
+1 / 1 pont
+Adott két végpont, melyeket egy switch/router és a közöttük levő két fizikai link kapcsol össze.
+Mit nevezünk feldolgozási késleltetésnek (processing delay) egy csomag átvitele esetén?
+
+  Azt az időt, ami a csomag összes bitjének hálózatra viteléhez szükséges. 
+  Azt az időt, ami a jelnek szükséges ahhoz, hogy áthaladjon a fizikai közegen, ami összeköti a küldő és a cél eszközöket.
+  Azt az időt, ami egy csomag routeren való áthaladásához szükséges. 
+Helyes!
+  Azt az időt, amit a routeren a csomag fejléceinek feldolgozása és továbbítási döntések meghozatala igényel.
+ 
+8. kérdés
+1 / 1 pont
+Az ISO/OSI modell mely rétege felel az adatkonverzióért különböző reprezentációk között?
+
+Helyes!
+  Megjelenítési réteg/Presentation 
+  Munkamenet (Ülés) réteg/Session 
+  Szállítói réteg/Transport 
+  Fizikai réteg/Physical 
+  Hálózati réteg/Network 
+  Adatkapcsolati réteg/Data Link 
+  Alkalmazási réteg/Application 
+ 
+9. kérdés
+0 / 1 pont
+Mennyi az átviteli késleltetése egy 1500 bájtos csomagnak egy olyan hálózaton, ahol az elérhető adatráta 12 Gbps? A választ mikromásodpercben (us) adjuk meg! (segítség: 1 us = 10-6 sec, 1Gbps = 109 bps (bits/second)) 
+
+Ön megadott egy választ
+1.2500
+Helyes válaszok
+1.0 (megközelítőleg : 0.0)
+ 
+10. kérdés
+0 / 1 pont
+Az ISO/OSI modell mely rétege foglalja magába a közeghozzáférés vezérlését (MAC)?
+
+  Fizikai réteg/Physical 
+  Megjelenítési réteg/Presentation 
+  Alkalmazási réteg/Application 
+Ön megadott egy választ
+  Munkamenet (Ülés) réteg/Session 
+Helyes válasz
+  Adatkapcsolati réteg/Data Link 
+  Szállítói réteg/Transport 
+  Hálózati réteg/Network 
+Kvízeredmény: 5.5 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	8 perc
+Jelenlegi pontszám:	5.5 az összesen elérhető 10 pontból
+Megtartott pontszám:	5.5 az összesen elérhető 10 pontból
