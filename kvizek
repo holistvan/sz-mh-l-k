@@ -156,3 +156,159 @@ A leadás részletei:
 Idő:	8 perc
 Jelenlegi pontszám:	5.5 az összesen elérhető 10 pontból
 Megtartott pontszám:	5.5 az összesen elérhető 10 pontból
+****************************************
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA3
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Tematika
+Kvízek
+EA3
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető márc 5, 08:30 - márc 5, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	8 perc	5 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 5 az összesen elérhető 10 pontból
+Beadva ekkor: márc 5, 08:39
+Ez a próbálkozás ennyi időt vett igénybe: 8 perc
+ 
+1. kérdés
+0 / 1 pont
+Mely modulációs technika használja a  vivőhullám több jellemzőjét is a szimbólumok kifejezésére?
+
+Helyes válasz
+  QAM-16 technika 
+  Frekvencia moduláció 
+  Fázis moduláció 
+Ön megadott egy választ
+  Amplitúdó moduláció 
+ 
+2. kérdés
+0.5 / 1 pont
+Mely állítások igazak az alapsávú átvitelre?
+Ön megadott egy választ
+  egy széles frekvencia tartományban történik az átvitel, nem minden frekvencián kerül átvitelre a jel
+Helyes!
+  a jel minden frekvencián átvitelre kerül 
+Helyes!
+  a digitális jel direkt árammá vagy feszültséggé alakul 
+  a jelet modulálással ülteti egy vivóhullámra 
+ 
+3. kérdés
+0.5 / 1 pont
+Jelölje be, hogy az állítások mely multiplexálási technikákra igazak!
+
+Helyes!
+A teljes frekvencia tartományt szűkebb sávokra bontja 
+Ön megadott egy választ
+Vezetékes kommunikáció esetén minden egyes csatornához külön pont-pont fizikai kapcsolat tartozik 
+  
+Helyes válasz Térbeli multiplexálás
+Ön megadott egy választ
+Vezeték nélküli kommunikáció esetén minden egyes csatornához külön antenna rendelődik 
+  
+Helyes válasz Térbeli multiplexálás
+Ön megadott egy választ
+Minden állomás saját frekvenica tartományt kap 
+  
+Helyes válasz Frekvencia multiplexálás
+Helyes!
+Diszkrét időszeletek használata 
+Helyes!
+Minden állomás saját időszeletet kap 
+Other Incorrect Match Options:
+Egyikre sem igaz.
+ 
+4. kérdés
+0 / 1 pont
+Két szimbólum használata esetén a szimbólum ráta 4 Baud. Négy szimbólum használata mellett mekkora lesz a szimbólum ráta, ha semmi mást nem változtatunk?
+
+   
+16
+   Baud
+
+1. válasz:
+Ön megadott egy választ 16
+Helyes válasz
+4 
+ 
+5. kérdés
+0 / 1 pont
+Négy szimbólum használata esetén hány bitet tudunk egy szimbólumba kódolni?
+
+ 
+
+16
+1. válasz:
+Ön megadott egy választ 16
+Helyes válasz
+2 
+ 
+6. kérdés
+1 / 1 pont
+Egy s(t) függvényt a sin(t) vivőhullámra a következőképp kódolunk: s(t)*sin(t)
+
+Melyik modulációs technikát alkalmaztuk?
+
+Helyes!
+  Amplitúdó moduláció 
+  Fázis moduláció 
+  QAM technika 
+  Frekvencia moduláció 
+ 
+7. kérdés
+1 / 1 pont
+A 100 Mbps Ethernetnél alkalmazott 4/5 kódolással  
+20
+ %-ot veszítünk a hatékonyságból!
+
+1. válasz:
+Helyes! 20
+ 
+8. kérdés
+0 / 1 pont
+Mit nevezünk elnyelődésnek?
+Ön megadott egy választ
+  A vételi és a küldési energiák különbségét. 
+  A küldési és vételi energiák hányadosát. 
+  A vételi és küldési energiák különbségének négyzetgyökét. 
+  A vételi és a küldési enrergiák különbségének logaritmusát. 
+ 
+9. kérdés
+1 / 1 pont
+Mely állítások igazak a fizikai rétegre?
+
+Helyes!
+  Szolgáltatása, hogy információt (biteket) visz át két fizikailag összekötött eszköz között 
+  Hibajavítást alkalmaz a hálózat különböző rétegeiben előálló zaj kezelésére 
+  Üzenetet visz át két alkalmazás között 
+  Minden információ rádióhullámok segítségével kerül átvitelre 
+ 
+10. kérdés
+1 / 1 pont
+Mely állítások igazak az szélessávú átvitelre?
+  a digitális jel direkt árammá vagy feszültséggé alakul 
+Helyes!
+  egy széles frekvencia tartományban történik az átvitel, nem minden frekvencián kerül átvitelre a jel
+Helyes!
+  a jelet modulálással ülteti egy vivóhullámra 
+  a jel minden frekvencián átvitelre kerül 
+Kvízeredmény: 5 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	8 perc
+Jelenlegi pontszám:	5 az összesen elérhető 10 pontból
+Megtartott pontszám:	5 az összesen elérhető 10 pontból
