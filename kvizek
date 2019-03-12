@@ -312,3 +312,165 @@ A leadás részletei:
 Idő:	8 perc
 Jelenlegi pontszám:	5 az összesen elérhető 10 pontból
 Megtartott pontszám:	5 az összesen elérhető 10 pontból
+*************
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA4
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Tematika
+Kvízek
+EA4
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető márc 12, 08:30 - márc 12, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	9 perc	5.67 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 5.67 az összesen elérhető 10 pontból
+Beadva ekkor: márc 12, 08:43
+Ez a próbálkozás ennyi időt vett igénybe: 9 perc
+ 
+1. kérdés
+1 / 1 pont
+Mely szolgáltatásokért felel az adatkapcsolati réteg? (4 állítás helyes)
+
+Helyes!
+  Per-hop hibakezelés 
+  Útvonal kiválasztás, routing 
+  Alkalmazások közötti (végpont-végpont) megbízhatóság 
+  Alkalmazási tűzfal szolgáltatás 
+  Bitek átvitele a médiumon 
+  Alkalmazások közötti (végpont-végpont) hibakezelés 
+Helyes!
+  Közeghozzáférés vezérlése (MAC) 
+Helyes!
+  Per-hop megbízhatóság 
+Helyes!
+  Adatok keretekre tördelése 
+  Domain név feloldás 
+ 
+2. kérdés
+0 / 1 pont
+Mely bithibát nem képes felismerni a CRC módszer, ha a generátor polinom x^4 + x + 1, ahol x^4 jelöli az "x a negyediken" hatványt?
+Ön megadott egy választ
+  ahol a hiba polinom E(x) = x^5 + x + 1 
+Helyes válasz
+  ahol a hiba polinom E(x) = x^5 + x^2 + x 
+  Minden hibát felismer a módszer. 
+  ahol a hiba polinom E(x) = x + 1 
+ 
+3. kérdés
+0 / 1 pont
+Egy kód Hamming-távolsága 13. Hány egyszerű bithibát tudunk javítani ezzel a kóddal?
+
+   
+12
+  
+
+1. válasz:
+Ön megadott egy választ 12
+Helyes válasz
+6 
+ 
+4. kérdés
+0 / 1 pont
+Az alábbi három kódolás közül melyiket érdemes használni, ha tudjuk, hogy a csatorna nem megbízható. R(S) jelöli a kód rátáját, q(S) pedig a kód távolságát!
+Helyes válasz
+  R(S) = 0.7 és q(S) = 0.7 
+  R(S) = 0.9 és q(S) = 0.3 
+  R(S) = 0.5 és q(S) = 0.1 
+Ön megadott egy választ
+  R(S) = 0.5 és q(S) = 0.2 
+ 
+5. kérdés
+0.67 / 1 pont
+Mely állítások igazak a Hamming-kódra? (3 állítás igaz)
+
+Helyes!
+  2 egészhatvány sorszámú pozíciói lesznek az ellenőrző bitek, azaz 1,2,4,8,16,…, a maradék helyeket az üzenet bitjeivel töltjük fel
+Helyes!
+  Paritást használó technika 
+Ön megadott egy választ
+  A polinóm aritmetika mod 2 felett történik. 
+Helyes!
+  Mindegyik ellenőrző bit a bitek valamilyen csoportjának a paritását állítja be párosra (vagy páratlanra)
+  Polinom osztáson alapuló technika 
+  A generátor polinómot a protokoll definálja 
+  Nem használ redundanciát, emiatt nagyon kompakt kódolás. 
+  Minden bitet kétszer küldünk át. 
+ 
+6. kérdés
+1 / 1 pont
+Egy kód Hamming-távolsága 8. Hány egyszerű bithibát tudunk detektálni ezzel a kóddal?
+
+   
+7
+  
+
+1. válasz:
+Helyes! 7
+ 
+7. kérdés
+1 / 1 pont
+Egy kód Hamming-távolsága 2. Hány egyszerű bithibát tudunk detektálni ezzel a kóddal?
+
+   
+1
+  
+
+1. válasz:
+Helyes! 1
+ 
+8. kérdés
+1 / 1 pont
+Az előadáson látott naiv hibadetektáló megoldás minden keretet kétszer küld el. Ezt követően a két kópia egyezését használja a hibamentes átvitel eldöntésére. Mely állítások igazak erre a módszerre? (2 állítás igaz)
+
+  Alacsony költsége van. 
+  Ethernet is ezt használja. 
+Helyes!
+  Túl nagy a költsége. 
+  A hiba javítására is használható, hisz a másolat alapján a hibás bit felülírható. 
+  Tökéletes megoldás, mellyel szinte minden hiba detektálható. 
+Helyes!
+  Gyenge hibavédelemmel rendelkezik. 
+ 
+9. kérdés
+1 / 1 pont
+Mekkora következő két bitsorozat Hamming-távolsága?
+
+d( 1001, 1011 ) =   
+1
+  
+
+1. válasz:
+Helyes! 1
+ 
+10. kérdés
+0 / 1 pont
+Egy protokoll CRC-t használ hiba felismeréshez. Az alkalmazott generátor polinom fokszáma 12. 
+
+Hány biten ábrázolható a CRC kontrollösszeg (a maradék polinom)?
+
+Helyes válasz
+  12 
+Ön megadott egy választ
+  10 
+  Nincs összefüggés a fokszám és a CRC kontrollösszeg bitszélessége között. 
+  11 
+Kvízeredmény: 5.67 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	9 perc
+Jelenlegi pontszám:	5.67 az összesen elérhető 10 pontból
+Megtartott pontszám:	5.67 az összesen elérhető 10 pontból
