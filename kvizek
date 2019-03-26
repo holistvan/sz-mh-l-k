@@ -475,4 +475,135 @@ Idő:	9 perc
 Jelenlegi pontszám:	5.67 az összesen elérhető 10 pontból
 Megtartott pontszám:	5.67 az összesen elérhető 10 pontból
 
-WarehouseManager
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA6
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Tematika
+Kvízek
+EA6
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető márc 26, 08:30 - márc 26, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	8 perc	4 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 4 az összesen elérhető 10 pontból
+Beadva ekkor: márc 26, 08:43
+Ez a próbálkozás ennyi időt vett igénybe: 8 perc
+ 
+1. kérdés
+0 / 1 pont
+Melyik állítás igaz a bridge-eknél (hidaknál) látott feszítőfa protokollra (STP)? 
+Ön megadott egy választ
+  Centralizált algoritmus kiszámítja a gyökérelemhez vezető legrövidebb utakat, majd ezeket alkalmazza a bridge-ekben.
+Helyes válasz
+  A fa gyökere a legkisebb ID-val rendelkező bridge, melyet a szomszédoktól kapott üzenetek alapján frissít egy bridge.
+  Hurok csak akkor megengedett, ha azzal javítható a teljesítmény. 
+  Ismeretlen cél esetén szétküldjük minden szomszédnak a keretet, majd figyeljük a választ és az alapján készítünk táblabejegyzést.
+ 
+2. kérdés
+1 / 1 pont
+Adott N állomás, melyek bináris visszaszámlálás protokollt és Mok és Ward féle javítást használnak a közeghozzáféréshez. 4 állomás áll készen keret küldésére. A versengési időrés 1 időegység. Egy adatkeret küldése szintén egységesen 1 időegységig tart. Legjobb esetben hány időegységet kell egy állomásnak várnia a saját kerete átvitelének megkezdése előtt? [Azt az időrést már ne számoljuk, amiben a saját keret is átvitelre kerül. Továbbá tegyük fel, hogy közvetlenül a versengési időrés előtt állunk!]
+  Soha nem kerül átvitelre az állomás kerete. 
+Helyes!
+  1 
+  N 
+  4 
+ 
+3. kérdés
+0 / 1 pont
+Adott N állomás, melyek bináris visszaszámlálás protokollt (Mok és Ward féle javítás nélkül) használnak a közeghozzáféréshez. A versengési időrés 1 időegység. Egy adatkeret küldése szintén egységesen 1 időegységig tart. Legrosszabb esetben hány időegységet kell egy állomásnak várnia a saját kerete átvitelének megkezdése előtt? [Azt az időrést már ne számoljuk, amiben a saját keret is átvitelre kerül. Továbbá tegyük fel, hogy közvetlenül a versengési időrés előtt állunk!]
+Ön megadott egy választ
+  N 
+  2 
+  1 
+Helyes válasz
+  Soha nem kerül átvitelre az állomás kerete. 
+ 
+4. kérdés
+1 / 1 pont
+Adott 8 állomás, melyek adaptív fabejárás protokollt használnak a közeghozzáféréshez. Az állomások sorszámai 1-8, melyek a fa levél szintjén helyezkednek el balról jobbra.  A 3. és 4. állomások akarnak keretet átvinni a csatornán. A lent látható időrés sorozatok közül melyik tartozik a fenti ütközés feloldásához? [Az első ütközést okozó időrést ne vegyük fegyelembe. Továbbá tegyük fel, hogy nem érkeznek újabb kérések a rendszerbe!]
+  üres | üres | üres | 4 küld | 3 küld 
+  ütközés (3 és 4 küld) | üres | üres | ütközés (3 és 4 küld) | 3 küld | 4 küld 
+  Egyik sem. 
+Helyes!
+  ütközés (3 és 4 küld) |  üres | ütközés (3 és 4 küld) | 3 küld | 4 küld | üres 
+  ütközés(3 és 4 küld) | 3 küld | 4 küld 
+ 
+5. kérdés
+0 / 1 pont
+Mi igaz a bridge-eknél (hídaknál) látott MAC címek tanulása módszerre?
+Helyes válasz
+  A beérkező keretben szereplú forrásállomás MAC címét és a beérkezési portot betesszük a továbbítási táblába.
+  Ismeretlen cél esetén szétküldjük minden szomszédnak a keretet, majd figyeljük a választ és az alapján készítünk táblabejegyzést.
+Ön megadott egy választ
+  Új cím csak akkor rakható be, ha egy régit kitörlünk. 
+  A beérkező keretben szereplő célállomás MAC címét és a beérkezési portot betesszük a továbbítási táblába.
+ 
+6. kérdés
+0 / 1 pont
+Melyik állítás igaz a bridge-eknél (hidaknál) látott feszítőfa protokollra (STP)? 
+Ön megadott egy választ
+  A kialakított fa optimális továbbítást tesz lehetővé. 
+Helyes válasz
+  Egy bridge a szomszéd bridge-eknek küldi el a konfigurációs üzenetét, mely alapján azok frissítik a gyökér csomópont és a hozzá vezető úthoz kapcsolódó információkat.
+  Az állomások az összes bridge-nek elküldik a konfigurációs üzenetük, mely alapján azok frissítik a gyökér csomópont és a hozzá vezető úthoz kapcsolódó információkat.
+  A fa gyökere a legnagyobb kapacitású állomás, melyet a bridge-ek választanak meg.
+ 
+7. kérdés
+0 / 1 pont
+Melyik állítás igaz?  (1 helyes)
+
+Helyes válasz
+  Minden switch egyben bridge is. 
+Ön megadott egy választ
+  Bridge minden portja csak egyetlen egy hoszthoz kapcsolható, ami lehet egy másik bridge is.
+  Switchek esetén csak fél-duplex linkek megengedettek. 
+  Minden bridge egyben switch is. 
+ 
+8. kérdés
+0 / 1 pont
+Adott 2^N (kettő az N-ediken) állomás, melyek adaptív fabejárás protokollt használnak a közeghozzáféréshez. 2 állomás áll készen keret küldésére, melyek ütközést okoznak. Egy adatkeret küldése egységesen 1 időegységig tart. Legjobb esetben hány időegység szükséges az ütközés feloldásához? [Az első ütközést okozó időrést nem számolva hány időegység alatt fut le az ütközés feoldás. Továbbá tegyük fel, hogy nem érkeznek újabb kérések a rendszerbe!]
+Ön megadott egy választ
+  2N 
+  N 
+Helyes válasz
+  2 
+  1 
+ 
+9. kérdés
+1 / 1 pont
+Adott N állomás, melyek Alapvető bittérkép protokollt használnak a közeghozzáféréshez. A versengési időrés 1 időegység. Egy adatkeret küldése szintén egységesen 1 időegységig tart. Legrosszabb esetben hány időegységet kell egy állomásnak várnia a saját kerete átvitelének megkezdése előtt? [Azt az időrést már ne számoljuk, amiben a saját keret is átvitelre kerül. Továbbá tegyük fel, hogy közvetlenül a versengési időrés előtt állunk!]
+  N+2 
+  N-1 
+  2 
+Helyes!
+  N 
+ 
+10. kérdés
+1 / 1 pont
+Adott N állomás, melyek Alapvető bittérkép protokollt használnak a közeghozzáféréshez. A versengési időrés 1 időegység. Egy adatkeret küldése szintén egységesen 1 időegységig tart. Legjobb esetben hány időegységet kell egy állomásnak várnia a saját kerete átvitelének megkezdése előtt? [Azt az időrést már ne számoljuk, amiben a saját keret is átvitelre kerül. Továbbá tegyük fel, hogy közvetlenül a versengési időrés előtt állunk!]
+Helyes!
+  1 
+  N 
+  N+2 
+  2 
+Kvízeredmény: 4 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	8 perc
+Jelenlegi pontszám:	4 az összesen elérhető 10 pontból
+Megtartott pontszám:	4 az összesen elérhető 10 pontból
+
