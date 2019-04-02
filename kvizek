@@ -607,3 +607,180 @@ Idő:	8 perc
 Jelenlegi pontszám:	4 az összesen elérhető 10 pontból
 Megtartott pontszám:	4 az összesen elérhető 10 pontból
 
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA7
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Tematika
+Kvízek
+EA7
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető ápr 2, 08:30 - ápr 2, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	10 perc	6 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 6 az összesen elérhető 10 pontból
+Beadva ekkor: ápr 2, 08:43
+Ez a próbálkozás ennyi időt vett igénybe: 10 perc
+ 
+1. kérdés
+1 / 1 pont
+Melyik állítások igazak a kapcsolatállapot (link state) alapú routing protokollra?
+  A routing táblát egy központi vezérlő tölti fel. 
+  Bellman-Ford algoritmust alkalmaz 
+Helyes!
+  Megméri a szomszédokhoz vezető költséget, majd ezt elküldi minden routernek. 
+Helyes!
+  Dijkstra algoritmust alkalmaz 
+  Megméri a szomszédokhoz vezető költséget, majd ezt elküldi a szomszédos routereknek (csak nekik).
+ 
+2. kérdés
+1 / 1 pont
+Mit jelent az optimalitási elv útvonalkiválasztás esetén?
+Helyes!
+  Legyen P az I-ből  K állomásba vezető optimális útvonal. Ekkor bármely J állomást véve a P útvonal mentén, a J-ből K-ba vezető optimális útvonal P-re esik (annak része).
+  Egyik állítás sem igaz. Másnak kell teljesíülnie. 
+  Legyen P az I-ből K állomásba vezető optimális útvonal. Ekkor bármely J állomást véve a P útvonal mentén, a J-ből I-be vezető optimális útvonal P-re esik (annak része), továbbá fordítva a J-ből K-ba vezető optimális útvonal is P-re esik.
+  Legyen P az I-ből K állomásba vezető optimális útvonal. Ekkor bármely J állomást véve a P útvonal mentén, a J-ből I-be vezető optimális útvonal P-re esik (annak része).
+ 
+3. kérdés
+0 / 1 pont
+Egy távolságvektor routing protokollt használó hálózatban az A állomás routing táblája a következő:
+
+host | költség | next hop
+B | 7 | B
+C | 10 | C
+D | 1 | D
+E | 14 | D
+
+B szomszédtól a következő távolságvektort kapja:
+
+C | 2
+D | 3
+E | 3
+
+Mi lesz D költsége A állomás routing táblájában?   2  
+
+1. válasz:
+Helyes válasz
+1 
+Ön megadott egy választ
+2 
+ 
+4. kérdés
+1 / 1 pont
+Melyik protokollhoz kapcsolódik a végtelenig számlálás problémája?
+  Feszítőfa (spanning tree) protokoll 
+Helyes!
+  Távolságvektor (distance vector) protokoll 
+  Kapcsolatállapot (link state) routing protokoll 
+  MAC címek tanulása switchekben 
+  Border Gateway Protocol 
+ 
+5. kérdés
+1 / 1 pont
+Melyik címosztály esetén lehet a legkevesebb hosztot definiálni egy címosztályon belül?
+
+  Mindegyikben ugyanannyit lehet. 
+  A címosztály 
+Helyes!
+  C címosztály 
+  B címosztály 
+ 
+6. kérdés
+1 / 1 pont
+Melyik címosztály esetén osztható ki a legkevesebb ilyen IP tartomány?
+
+Helyes!
+  A osztály 
+  C osztály 
+  B osztály 
+  Azonos számú osztható ki mindegyik esetén. 
+ 
+7. kérdés
+0 / 1 pont
+Mit nevezünk végtelenig számlálás problémájának?
+  Feszítőfa protokoll oldja meg a problémát, amit bridge-elt hálózatokban a hurkok okoznak. 
+Ön megadott egy választ
+  Távolságvektor protokoll esetén, ha egy él költsége csökken, akkor azt csak nagyon lassan tanulja meg a többi router. Egyesével kezd csökkenni az állomáshoz tartozó érték.
+  Kapcsolatállapot (link state) routing protokoll esetén ha egy él törlődik a hálózatból, akkor az új információ csak lassan propagál szét a routerekhez. A routing táblák hibás bejegyzéseket tartalmaznak.
+Helyes válasz
+  Egyik sem helyes válasz 
+ 
+8. kérdés
+1 / 1 pont
+Melyik állítások igazak a távolságvektor (distance vector) alapú routing protokollra?
+Helyes!
+  Minden router csak a szomszédjával kommunikál 
+  Minden router minden másikkal kommunikál 
+Helyes!
+  lényegében elosztott Bellman-Ford algoritmus 
+  lényegében elosztott Dijkstra algoritmus 
+Helyes!
+  Aszinkron működés 
+ 
+9. kérdés
+0 / 1 pont
+Egy távolságvektor routing protokollt használó hálózatban az A állomás routing táblája a következő:
+
+host | költség | next hop
+B | 7 | B
+C | 10 | C
+D | 1 | D
+E | 14 | D
+
+B szomszédtól a következő távolságvektort kapja:
+
+C | 2
+D | 3
+E | 3
+
+Mi lesz E költsége A állomás routing táblájában?   14  
+
+1. válasz:
+Ön megadott egy választ
+14 
+Helyes válasz
+10 
+ 
+10. kérdés
+0 / 1 pont
+Egy távolságvektor routing protokollt használó hálózatban az A állomás routing táblája a következő:
+
+host | költség | next hop
+B | 7 | B
+C | 10 | C
+D | 1 | D
+E | 14 | D
+
+B szomszédtól a következő távolságvektort kapja:
+
+C | 2
+D | 3
+E | 3
+
+Mi lesz C költsége A állomás routing táblájában?   8  
+
+1. válasz:
+Ön megadott egy választ
+8 
+Helyes válasz
+9 
+Kvízeredmény: 6 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	10 perc
+Jelenlegi pontszám:	6 az összesen elérhető 10 pontból
+Megtartott pontszám:	6 az összesen elérhető 10 pontból
