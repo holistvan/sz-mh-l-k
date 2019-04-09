@@ -784,3 +784,169 @@ A leadás részletei:
 Idő:	10 perc
 Jelenlegi pontszám:	6 az összesen elérhető 10 pontból
 Megtartott pontszám:	6 az összesen elérhető 10 pontból
+
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA8
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Fájlok
+Tematika
+Kvízek
+EA8
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető ápr 9, 08:30 - ápr 9, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	10 perc	5 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 5 az összesen elérhető 10 pontból
+Beadva ekkor: ápr 9, 08:45
+Ez a próbálkozás ennyi időt vett igénybe: 10 perc
+ 
+1. kérdés
+1 / 1 pont
+Mely állítások igazak a BGP protokollra?
+
+Helyes!
+  A politikai jellegű szabályokat kézzel konfigurálják a BGP-routeren. 
+  A BGP router-ek páronként UDP-összeköttetést létrehozva kommunikálnak egymással. 
+Helyes!
+  Megadható olyan szabály, hogy ne legyen átmenő forgalom bizonyos AS-eken keresztül. 
+  A BGP alapvetően link state protokoll, viszont a router nyomon követi a használt útvonalat, és az útvonalat mondja meg a szomszédjainak.
+Helyes!
+  A BGP router-ek páronként TCP-összeköttetést létrehozva kommunikálnak egymással. 
+ 
+2. kérdés
+1 / 1 pont
+Egy szolgáltató (provider) az ügyfeleitől (customers) importált bejegyzéseket kiknek exportálja?
+
+  Csak a peerjeinek. 
+  Csak a többi ügyfelének. 
+  Senkinek. 
+  Csak a szolgáltatójának. 
+Helyes!
+  A szolgáltatójának, a peerjeinek és az ügyfeleinek. 
+ 
+3. kérdés
+0.5 / 1 pont
+Az alábbiak közül mi az, ami biztosan NEM szerepel egy L3 router routing táblájában?
+Helyes!
+  cél MAC cím 
+Helyes válasz
+  forrás MAC cím 
+  Gateway (next hop) 
+Ön megadott egy választ
+  interface/kimenő port 
+  Netmask 
+  Network destination (IP cím) 
+Helyes!
+  TCP port 
+Helyes!
+  UDP port 
+ 
+4. kérdés
+1 / 1 pont
+Az alábbi IPv4 címek közül melyek NEM használhatók globális forgalomirányításra az Interneten? Azaz melyek ún. privát IP címek?
+Helyes!
+  10.0.234.254 
+  157.181.33.2 
+  88.55.45.34 
+Helyes!
+  192.168.0.3 
+ 
+5. kérdés
+0 / 1 pont
+Adott az alábbi AS gráf részlet:
+
+AS1 -----peer----- AS2 -----peer----- AS3
+  ^                                ^                                 ^
+   |                                 |                                  |
+customer           customer               customer
+   |                                 |                                  |
+AS4                           AS5                           AS6
+
+ 
+
+, azaz AS1 és AS2, továbbá AS2 és AS3 peerek, míg AS4 előfizetője AS1-nek, AS5 előfizetője AS2-nek és AS6 előfizetője AS3-nak.
+
+Az alábbiak közül mely útvonalak mentén történhet forgalmazás a fenti hálózatban?
+
+Ön megadott egy választ
+  AS3 -> AS2 -> AS1 -> AS4 
+Helyes!
+  AS1 -> AS2 -> AS5 
+Helyes válasz
+  AS5 -> AS2 -> AS1 -> AS4 
+  AS4 -> AS1 -> AS2 -> AS3 -> AS6 
+Ön megadott egy választ
+  AS1 -> AS2 -> AS3 
+ 
+6. kérdés
+1 / 1 pont
+Az alábbiak közül melyek  helyes IPv6 címek?
+Helyes!
+  2001:0db8::ff00:0042:8329 
+Helyes!
+  2001:0db8:ff00:ff00:ff00:ff00:0042:8329 
+  2001:0db8:ff00:ff00:ff00:ff00:1234 
+  2001:0db8:ff00:ff00:ff00:ff00:0042:8329:7767 
+ 
+7. kérdés
+0 / 1 pont
+Mit használ az ún. NAT doboz bejövő csomagok esetén a cél IP címek fordításához?
+Ön megadott egy választ
+  Az IP fejléc forrás IP cím mezőjét 
+  Az IP fejléc proto mezőjét 
+Helyes válasz
+  UDP/TCP fejléc cél port mezőjét 
+  Az UDP/TCP fejléc checksum mezőjét 
+ 
+8. kérdés
+0 / 1 pont
+Az alábbiak közül melyik állítás igaz a IPv4 csomagok fragmentációjára?
+Helyes válasz
+  Memória kezelési problémák a cél állomásnál 
+Ön megadott egy választ
+  A csomagok helyreállítása a cél állomás előtti routereken memória kezelési problémát okoz.
+  Memória kezelési problémák a forrás állomásnál 
+  Nem okoz problémát a forrás és a cél állomásoknál 
+ 
+9. kérdés
+0.5 / 1 pont
+Mely állítások igazak az AS-ek közötti ún. inter-domain routingra?
+Helyes!
+  Útvonal vektor protokollt használ 
+Helyes!
+  BGP-t használ 
+Ön megadott egy választ
+  Link state routing protokollt használ 
+  Hálózat operátor dönti el, hogy többi válasz közül melyik legyen alkalmazva. 
+  Távolság vektor protokollt használ 
+ 
+10. kérdés
+0 / 1 pont
+Milyen lehetőségekkel rendelkezik egy BGP router az útvonal politikák alkalmazására?
+Ön megadott egy választ
+  Megváltoztathatja a használt intradomain routing protokollt 
+Helyes válasz
+  Eldöntheti, hogy mely útvonalakat exportálja a szomszédainak 
+  Meghamisíthatja az útvonalakat, így okozva piaci kárt a szomszédainak. 
+Helyes!
+  Dönthet, hogy mely útvonalat használja a rendelkezésre állók közül. 
+Kvízeredmény: 5 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	10 perc
+Jelenlegi pontszám:	5 az összesen elérhető 10 pontból
+Megtartott pontszám:	5 az összesen elérhető 10 pontból
