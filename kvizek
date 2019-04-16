@@ -950,3 +950,133 @@ A leadás részletei:
 Idő:	10 perc
 Jelenlegi pontszám:	5 az összesen elérhető 10 pontból
 Megtartott pontszám:	5 az összesen elérhető 10 pontból
+
+
+Tartalomhoz ugrás
+Vezérlőpult
+Holczmann István (I19AYX)
+Fiók
+Vezérlőpult
+Kurzusok
+Csoportok
+Naptár
+Bejövő üzenetek
+
+2018/19/2 XK85DZ-IP-08abcSZHG - Számítógépes hálózatok GY. (BSc,08,A)KvízekEA9
+2018/19/2
+Kezdőlap
+Feladatok
+Fórumok
+Értékelések1
+Résztvevők
+Fájlok
+Tematika
+Kvízek
+EA9
+Határidő Nincs megadva határidő  Pont 10  Kérdések 10 Elérhető ápr 16, 08:30 - ápr 16, 09 30 perc  Időkorlát 10 perc
+Próbálkozások naplója
+Próbálkozás	Idő	Eredmény
+LEGUTOLSÓ	1. próbálkozás	8 perc	9 az összesen elérhető 10 pontból
+Ezen kvíz eredménye: 9 az összesen elérhető 10 pontból
+Beadva ekkor: ápr 16, 08:41
+Ez a próbálkozás ennyi időt vett igénybe: 8 perc
+ 
+1. kérdés
+0 / 1 pont
+Mivel egészíti ki az UDP a hálózati rétegettől kapott szolgáltatást?
+  Nem megbízható, de sorrendhelyes átvitelt nyújt. 
+  Megbízható átvitelt tesz lehetővé két folyamat között. 
+Ön megadott egy választ
+  Sorrendhelyes és megbízható átvitelt valósít meg két folyamat között. 
+Helyes válasz
+  Lehetővé teszi a demultiplexálást és a hibaellenőrzést a célállomáson.  
+ 
+2. kérdés
+1 / 1 pont
+Az alábbiak közül melyik protokollt használjuk ún. váratlan események jelzésére?
+Helyes!
+  ICMP 
+  ARP 
+  UDP 
+  RARP 
+ 
+3. kérdés
+1 / 1 pont
+Mit old meg Karn algoritmusa a TCP RTO beállítása esetén?
+Helyes!
+  Az újraküldésből keletkező hibás RTT mintákat kiszűri. 
+  Megakadájozza, hogy kis csomagokat küldjünk. 
+  Ha van nyugtázatlan csomag, akkor várakoztatja az adatot. 
+  Nincs ilyen algritmus a TCP esetén. 
+ 
+4. kérdés
+1 / 1 pont
+Az alábbiak közül mi az, ami a TCP fejlécben szerepel, de az UDP fejlécben nem?
+  Forrás port 
+  Checksum 
+Helyes!
+  Sorszám (sequence number) 
+Helyes!
+  Nyugta szám (Acknowledgement number) 
+ 
+5. kérdés
+1 / 1 pont
+Adjuk meg helyes sorrendben a három-utas kézfogás üzenetváltásait!
+
+SYN a klienstől a szerverhez SYN/ACK a klienstől a szerverhez ACK a klienstől a szerverhez SYN a szervertől a klienshez SYN/ACK a szervertől a klienshez ACK a szervertől a klienshez
+
+Helyes!
+  1) SYN a klienstől a szerverhez, 2) SYN/ACK a szervertől a klienshez, 3) ACK a klienstől a szerverhez
+  1) SYN a klienstől a szerverhez, 2) SYN a szervertől a klienshez, 3) ACK a klienstől a szerverhez
+  1) SYN a szervertől a klienshez, 2) ACK a klienstől a szerverhez, 3) SYN/ACK a szervertől a klienshez
+  1) SYN a szervertől a klienshez, 2) SYN/ACK a klienstől a szerverhez, 3) ACK a szervertől a klienshez
+ 
+6. kérdés
+1 / 1 pont
+Mire szolgál a meghirdetett ablak (advertised window) TCP esetén?
+Helyes!
+  A fogadó pufferének méretét mutatja. 
+  A hálózat által kezelhető maximális adatmenyiséget mutatja. 
+  A küldő a hálózati rétege által kezelhető csomagok számát adja. 
+  A kiküldhető csomagok számát jelenti. 
+ 
+7. kérdés
+1 / 1 pont
+Miért van szükség kapcsolat felépítésére TCP esetén?
+  Garantált erőforrások allokálása a végpontok közötti útvonal routereiben. 
+Helyes!
+  Állapot kialakítása mindkét végponton (sorszámok) 
+  A végpontok authentikálása történik ekkor. 
+  Dedikált vonal kiépítése a végpontok között. 
+ 
+8. kérdés
+1 / 1 pont
+Az alábbiak közül melyik protokollt használjuk az IP címhez tartozó MAC cím feloldására?
+  ICMP 
+  RARP 
+Helyes!
+  ARP 
+  UDP 
+ 
+9. kérdés
+1 / 1 pont
+Hogyan állítjuk be az újraküldéshez használt időkorlátot (RTO) a TCP esetén?
+Helyes!
+  2 * RTT 
+  alfa * RTO_old + (1-alfa)*RTT 
+  RTT 
+  2 
+ 
+10. kérdés
+1 / 1 pont
+Mivel arányos az átvitel TCP esetén?
+  Meghirdetett ablakméret/RTT 
+Helyes!
+  Küldési ablakméret/RTT 
+  Küldési ablakméret/Meghirdetett ablakméret 
+  (Küldési ablakméret + Meghirdetett ablakméret)/RTT 
+Kvízeredmény: 9 az összesen elérhető 10 pontból
+A leadás részletei:
+Idő:	8 perc
+Jelenlegi pontszám:	9 az összesen elérhető 10 pontból
+Megtartott pontszám:	9 az összesen elérhető 10 pontból
