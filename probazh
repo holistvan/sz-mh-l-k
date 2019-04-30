@@ -1,0 +1,32 @@
+http://lakis.web.elte.hu/szh201819II/SocketZH-2.pdf
+Számítógépes Hálózatok Socket ZH 2016/17-1
+Feladat (Mikulás ajándék szállítás)
+A Mikulás haladni akar a korral emiatt egy socket alkalmazásra lenne szüksége, amely képes a
+gyerekek kívánságait rendezni. Mivel a Mikulás fáradt a sok szervezéstől, így ő csak akkor jön, ha a
+szán indulásra kész van. A szánnak van súly kapacitása, mert a túlsúlyos szánt a rénszarvasok nem
+képesek elszállítani. A Mikulás feltétele hogy a server legyen képes kiszolgálni egyszerre több manót
+is. Példa kívánságokra (név,súly párok): „Tablet” (3), „XBOX” (5), „Barbie” (2), „Kerékpár” (8), „Star
+Wars könyv” (1),…
+Szán Szerver működése: A szerver fogadja a manóktól az ajándékokat és azok súlyát, majd OK vagy
+TELE üzenettel nyugtázza azokat. Ha a szán eléri a súlylimitet (15), akkor a Manókat TELE üzenettel
+visszautasítja és vár a Mikulásra, hogy elkezdje kihordani az ajándékokat. Ezután lenullázza a súlyszámlálót és elkezdi megtölteni a következő szánt, azaz kezdődik elölről a működés.
+Manó kliens működése: A szán szerverre küldi az ajándékokat és azok súlyát. Ha a szán tele van,
+akkor a TELE üzenetet kapják vissza a szántól, különben pedig OK üzenet. Tele üzenet esetén 5 mp-et
+várakozik, majd újra próbálja a küldést.
+A télapó kliens működése: Indulás után 1 másodpercenként lekérdezi a szán szervert, hogy megtelt-e
+már a szán. Ha megtelt (elérte a súlylimitet), akkor egy „elindultam” üzenetet küld a szán szervernek,
+vár 5 mp-et, majd ismét kezdi elölről a szán szerver kérdezgetését.
+Pontozás:
+Feladat Pont
+Elkészül a szerver és a manó kliens képes üzenetet küldeni
+neki.
+4 pont
+A szerver képes több manó klienst is kiszolgálni. 4 pont
+A szerver képes kommunikálni többféle klienssel (manó,
+télapó) és a télapó le tudja kérdezni a szán állapotát.
+5 pont
+A télapó kliens kész. 5 pont
+Megfelelő hibakezelés a kliens elvesztése esetén (TCP-kliens
+kilépett, UDP-kiosztott feladat nem érkezett meg)
+2 pont
+Összesen 20 pont
